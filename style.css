@@ -1,0 +1,77 @@
+
+/* resetting some browser-default styles */
+/* DO NOT CHANGE THESE */
+html,body,header,main,footer,section,aside,h1,h2,h3,h4,p{margin:0;padding:0;}
+ul{margin:0;}
+
+
+body {
+
+    /* DO NOT CHANGE THESE */
+    font-family: Verdana, Arial, sans-serif;
+}
+
+
+.hero {
+  /*display: flex;*/
+    /* DO NOT CHANGE THESE */
+    background-color: #444444;
+}
+.hero h1 {
+
+    /* DO NOT CHANGE THESE */
+    color: #ffffff;
+}
+
+.container {
+  display: flex;
+  /*justify-content: space-around;*/
+}
+
+
+.posts {
+  border: solid red;
+  flex: 0 0 70%;
+  box-sizing: border-box;
+  justify-content: space-around;
+  display: flex;
+    /* DO NOT CHANGE THESE */
+    color: #444444;
+}
+.posts article {
+  flex-flow: column wrap;
+    /* DO NOT CHANGE THESE */
+    background-color: #dddddd;
+    border: 1px solid #444444;
+    height: 20em; /* this is just so we can see the articles since they have no content */
+}
+
+
+.sidebar {
+  border: solid red;
+  flex: 0 0 30%;
+  box-sizing: border-box;
+  flex-direction: column;
+  /*display: flex;
+  justify-content: flex-end;*/
+    /* DO NOT CHANGE THESE */
+    background-color: #aaaaaa;
+    color: #444444;
+}
+
+.sidebar section {
+
+
+    /* DO NOT CHANGE THESE */
+    background-color: #dddddd;
+    border: 1px solid #444444;
+    height: 10em; /* this is just so we can see the articles since they have no content */
+}
+
+
+footer {
+
+    /* DO NOT CHANGE THESE */
+    background-color: #444444;
+    color: #eeeeee;
+}
