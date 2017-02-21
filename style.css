@@ -13,15 +13,26 @@ body {
 
 
 .hero {
-  /*display: flex;*/
+  display: flex;
     /* DO NOT CHANGE THESE */
     background-color: #444444;
 }
 .hero h1 {
-
+  flex: 0 0 50%;
+  padding: 3em;
     /* DO NOT CHANGE THESE */
     color: #ffffff;
 }
+
+.hero nav{
+  flex: 0 0 50%;
+}
+
+.hero li {
+  list-style: none;
+  display: inline;
+}
+
 
 .container {
   display: flex;
