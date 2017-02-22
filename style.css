@@ -18,11 +18,12 @@ a {
 
 .hero {
   display: flex;
+  margin: auto;
     /* DO NOT CHANGE THESE */
     background-color: #444444;
 }
 .hero h1 {
-  flex: 0 0 50%;
+  flex: 0 0 70%;
   padding: 3em;
     /* DO NOT CHANGE THESE */
     color: #ffffff;
@@ -30,13 +31,24 @@ a {
 
 
 .hero nav{
-  flex: 0 0 50%;
-  align-items: baseline;
+  display: flex;
+  flex: 0 0 30%;
+  align-self: flex-end;
+}
+
+.hero ul {
+  margin: 1em;
 }
 
 .hero li {
   list-style: none;
   display: inline;
+  align-content: flex-end;
+}
+
+.hero a {
+  text-decoration: none;
+  padding: .2em;
 }
 
 
@@ -100,12 +112,12 @@ footer {
 }
 
 footer nav {
-  flex: 0 0 50%;
+  flex: 0 0 63%;
   margin: 2em;
 }
 
 footer p {
-  flex: 0 0 50%;
+  flex: 0 0 37%;
   margin: 2em;
   /*justify-content: flex-end;*/
 }
