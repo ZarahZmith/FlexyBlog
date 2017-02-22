@@ -11,6 +11,10 @@ body {
     font-family: Verdana, Arial, sans-serif;
 }
 
+a {
+  color: #ffffff;
+}
+
 
 .hero {
   display: flex;
@@ -24,8 +28,10 @@ body {
     color: #ffffff;
 }
 
+
 .hero nav{
   flex: 0 0 50%;
+  align-items: baseline;
 }
 
 .hero li {
@@ -87,8 +93,19 @@ body {
 
 
 footer {
-
+  display: flex;
     /* DO NOT CHANGE THESE */
     background-color: #444444;
     color: #eeeeee;
+}
+
+footer nav {
+  flex: 0 0 50%;
+  margin: 2em;
+}
+
+footer p {
+  flex: 0 0 50%;
+  margin: 2em;
+  /*justify-content: flex-end;*/
 }
