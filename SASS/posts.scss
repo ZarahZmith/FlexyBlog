@@ -1,0 +1,17 @@
+.posts {
+  flex: 3 0 25%;
+  box-sizing: border-box;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  /* DO NOT CHANGE THESE */
+  color: #444444;
+
+  article {
+    flex: 0 0 46%;
+    margin: 1.5em;
+    /* DO NOT CHANGE THESE */
+    background-color: #dddddd;
+    border: 1px solid #444444;
+    height: 20em; /* this is just so we can see the articles since they have no content */
+  }
+}

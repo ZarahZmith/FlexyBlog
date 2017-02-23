@@ -1,0 +1,21 @@
+@media screen and (min-width:35em) {
+  .hero{
+    height: 6em;
+    display: flex;
+    align-self: center;
+
+    nav{
+      display: flex;
+      flex: 0 0 30%;
+      align-self: flex-end;
+    }
+
+    ul {
+      margin: 1em;
+    }
+
+    li {
+      align-content: flex-end;
+    }
+  }
+}

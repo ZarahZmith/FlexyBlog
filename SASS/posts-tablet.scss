@@ -1,0 +1,11 @@
+@media screen and (min-width:35em) {
+  .posts {
+    display: flex;
+    flex-wrap: wrap;
+
+    article {
+      flex: 0 0 45%;
+      margin: 1.5em 0;
+    }
+  }
+}
