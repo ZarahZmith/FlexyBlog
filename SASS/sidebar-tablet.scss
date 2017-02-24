@@ -1,0 +1,10 @@
+@media screen and (min-width: 35em) {
+  .sidebar {
+    flex-direction: row;
+
+    section {
+      flex:1 0 27%;
+      margin: 1.7em 1em;
+    }
+  }
+}
