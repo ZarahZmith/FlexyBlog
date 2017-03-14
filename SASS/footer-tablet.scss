@@ -2,5 +2,11 @@
   footer {
    display: flex;
    box-sizing: border-box;
+   justify-content: space-between;
+
+   p {
+    align-self: flex-end;
+    margin: 3em 0;
+   }
   }
 }
