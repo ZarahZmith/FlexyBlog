@@ -2,20 +2,15 @@
   .hero{
     height: 6em;
     display: flex;
-    align-self: center;
+    justify-content: space-between;
 
     nav{
-      display: flex;
       flex: 0 0 30%;
       align-self: flex-end;
     }
 
     ul {
       margin: 1em;
-    }
-
-    li {
-      align-content: flex-end;
     }
   }
 }
