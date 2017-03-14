@@ -4,6 +4,10 @@
     display: flex;
     justify-content: space-between;
 
+    h1 {
+      margin: 1em;
+    }
+    
     nav{
       flex: 0 0 30%;
       align-self: flex-end;
